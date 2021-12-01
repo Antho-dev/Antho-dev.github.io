@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    font-family: 'Raleway', sans-serif;
+}
+form{
+    margin: 20px;
+    background-color: #fff;
+    padding: 40px 60px;
+    border-radius: 10px;
+    min-width: 300px;
+}
+form h1{
+    color: #eb7371;
+    text-align: center;
+}
+form .socialmedia{
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+form .socialmedia p{
+    padding: 5px;
+    margin-left: 10px;
+    border: 1px solid #545454;
+    border-radius: 100%;
+    width: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+form p.choose-email{
+    text-align: center;
+}
+form .inputs{
+    display: flex;
+    flex-direction: column;
+}
+form .inputs input[type="email"], input[type="password"]{
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: rgb(231, 223, 223);
+    opacity: 75%;
+    }
+form p.inscription {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #878787;
+}
+form p.inscription span{
+    color: #eb7371;
+}
+form button{
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: beige;
+    background-color: #eb7371;
+    outline: none;
+    cursor: pointer;
+}
